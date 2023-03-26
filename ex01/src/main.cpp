@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:42 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 23:01:20 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 23:13:30 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int random_integer(int max_value) {
 int main()
 {
 	ClapTrap spiderman("Spiderman");
-	ScavTrap robin("Robin");
+	ScavTrap robin("Robin Scav");
 
 	std::string	enemies[5] = {"Dr Octopus","Sandman", "Green Goblin", "Venom", "Electro"};
 	int			damage[4] = {0,1,2,3};
