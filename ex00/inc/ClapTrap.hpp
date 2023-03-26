@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:48 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 19:42:17 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 20:03:46 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 #define CLAPTRAP_HPP
 #include <iostream>
 #include <cstring>
-#include <cstdlib> // for rand() and srand()
-#include <ctime> // for time()
-#include <unistd.h> // for usleep()
+#include <cstdlib> // for rand() and srand() from the C standard library
+#include <ctime> // for time() from the C standard library
+#include <unistd.h> // for usleep() - POSIX standard.
 
 class	ClapTrap
 {

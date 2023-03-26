@@ -6,12 +6,11 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:42 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 19:49:03 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 20:04:17 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.h"
-
 
 int random_integer(int max_value) {
 	// Seed the random number generator with the current time
@@ -20,7 +19,6 @@ int random_integer(int max_value) {
 	// Generate a random positive integer between 1 and max_value
 	return std::rand() % max_value;
 }
-
 
 int main()
 {
