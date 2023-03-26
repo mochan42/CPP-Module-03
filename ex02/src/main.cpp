@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:42 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 23:41:14 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 23:45:51 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int main()
 	FragTrap	ironman("Iron Man Frag");
 
 	std::string	enemies[5] = {"Dr Octopus","Sandman", "Green Goblin", "Venom", "Electro"};
-	int			damage[4] = {0,1,2,3};
+	int			damage[4] = {0,2,4,6};
 	int			repair[4] = {0,1,2,3};
 	int			i;
 	while ((spiderman.getEnergyPoints() > 0 && spiderman.getHitPoints() > 0) || (robin.getEnergyPoints() > 0 && robin.getHitPoints() > 0))
