@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:42 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 20:04:17 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 20:22:11 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int random_integer(int max_value) {
 	// Seed the random number generator with the current time
 	std::srand(std::time(nullptr));
 
-	// Generate a random positive integer between 1 and max_value
+	// Generate a random positive integer between 0 and max_value - 1
 	return std::rand() % max_value;
 }
 
