@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:42 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 20:22:11 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 23:04:50 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,24 +32,24 @@ int main()
 	while (spiderman.getEnergyPoints() > 0 && spiderman.getHitPoints() > 0)
 	{
 		i = random_integer(3);
-		usleep(100000);
+		usleep(211000);
 		if (i == 0)
 		{
 			spiderman.attack(enemies[random_integer(5)]);
-			usleep(100000);
+			usleep(97000);
 		}
 		else if (i == 1)
 		{
 			spiderman.takeDamage(damage[random_integer(4)]);
-			usleep(100000);
+			usleep(143000);
 		}
 		else
 		{
 			spiderman.beRepaired(repair[random_integer(4)]);
-			usleep(100000);
+			usleep(177000);
 		}
 	}
-	if (spiderman.getEnergyPoints() == 0)
+	if (spiderman.getEnergyPoints() == 0 && spiderman.getHitPoints() > 0)
 		std::cout << YELL << "----- " << spiderman.getName() << " needs to rest -----" << D << "\n";
 	if (spiderman.getHitPoints() == 0)
 		std::cout << RED << "----- " << spiderman.getName() << " died -----" << D << "\n";
