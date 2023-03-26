@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:48 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 17:46:07 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 18:06:43 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,12 @@ class	ClapTrap
 		ClapTrap&	operator=(const ClapTrap& src); // Copy assignment operator called
 		std::string		getName( void ) const;
 		void			setName( std::string setName );
-		
+		int				getHitPoints( void ) const;
+		void			setHitPoints( int setHitPoints );
+		int				getEnergyPoints( void ) const;
+		void			setEnergyPoints( int setEnergyPoints );
+		int				getAttackDamage( void ) const;
+		void			setAttackDamage( int setAttackDamage );
 
 	private:
 		std::string	_name;

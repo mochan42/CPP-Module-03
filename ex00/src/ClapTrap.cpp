@@ -6,7 +6,7 @@
 /*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:33 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 17:46:41 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/26 18:06:15 by mochan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,34 @@ std::string	ClapTrap::getName( void ) const
 void	ClapTrap::setName( std::string setName )
 {
 	_name = setName;
+}
+
+int	ClapTrap::getHitPoints( void ) const
+{
+	return (this->_hitPoints);
+}
+
+void	ClapTrap::setHitPoints( int setHitPoints )
+{
+	_hitPoints = setHitPoints;
+}
+
+int	ClapTrap::getEnergyPoints( void ) const
+{
+	return (this->_energyPoints);
+}
+
+void	ClapTrap::setEnergyPoints( int setEnergyPoints )
+{
+	_energyPoints = setEnergyPoints;
+}
+
+int	ClapTrap::getAttackDamage( void ) const
+{
+	return (this->_attackDamage);
+}
+
+void	ClapTrap::setAttackDamage( int setAttackDamage )
+{
+	_attackDamage = setAttackDamage;
 }
