@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ClapTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: moninechan <moninechan@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 17:19:33 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 22:36:01 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/27 08:51:37 by moninechan       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,19 +17,18 @@
 ClapTrap::ClapTrap()
 {
 	std::cout << BLU << "Default constructor called from ClapTrap" << D << "\n";
-	_name = "unknown";
-	_hitPoints	= 10;
-	_energyPoints = 10;
-	_attackDamage = 0;
+	this->_hitPoints	= 10;
+	this->_energyPoints = 10;
+	this->_attackDamage = 0;
 }
 
 ClapTrap::ClapTrap(std::string setName)
 {
 	std::cout << BLU << "Constructor with name parameter called from ClapTrap" << D << "\n";
-	_name = setName;
-	_hitPoints	= 10;
-	_energyPoints = 10;
-	_attackDamage = 0;
+	this->_name = setName;
+	this->_hitPoints	= 10;
+	this->_energyPoints = 10;
+	this->_attackDamage = 0;
 }
 
 ClapTrap::ClapTrap(const ClapTrap& src)
