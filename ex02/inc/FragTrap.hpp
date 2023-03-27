@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: moninechan <moninechan@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 23:25:00 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 23:30:15 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/27 09:03:20 by moninechan       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 #include <iostream>
 #include <cstring>
 
-class FragTrap : public ScavTrap
+class FragTrap : public ClapTrap
 {
 	public:
 		// CONSTRUCTORS - DESTRUCTOR
@@ -28,9 +28,6 @@ class FragTrap : public ScavTrap
 		FragTrap(ClapTrap const & src); // Drived Default copy constructor
 		~FragTrap(void); // Drived Destructor
 		void	highFivesGuys(void);
-
-	private:
-
 };
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: moninechan <moninechan@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 23:24:13 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/27 08:49:01 by moninechan       ###   ########.fr       */
+/*   Updated: 2023/03/27 09:03:00 by moninechan       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,5 @@ FragTrap::~FragTrap()
 //======== MEMBER FUNCTIONS =====================================================================
 void	FragTrap::highFivesGuys(void)
 {
-	std::cout << BLA << this->_name << " says : High Gives Guys!" << D << "\n";
+	std::cout << BLA << this->_name << " says : High Fives Guys!" << D << "\n";
 }
