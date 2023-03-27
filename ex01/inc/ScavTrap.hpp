@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mochan <mochan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: moninechan <moninechan@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 20:15:33 by mochan            #+#    #+#             */
-/*   Updated: 2023/03/26 22:22:08 by mochan           ###   ########.fr       */
+/*   Updated: 2023/03/27 08:56:58 by moninechan       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,6 @@ class ScavTrap : public ClapTrap
 		~ScavTrap(void); // Drived Destructor
 		void	attack(const std::string& target);
 		void	guardGate();
-
-	private:
-
 };
 
 #endif
